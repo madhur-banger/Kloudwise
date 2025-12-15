@@ -19,7 +19,7 @@ export default function Header() {
           <div className="container">
             <a className="navbar-brand" href="#">
               <img
-                src="assets/img/logo/kloudwise.svg"
+                src="/kloudwise.svg"
                 alt="Kloudwise"
                 className="logo"
               />

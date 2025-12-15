@@ -17,7 +17,7 @@
 @media(max-width: 991px) {
     .profile-image {
         width: 300px;
-        height: 300px;
+        height: 350px;
         margin-bottom: 30px;
     }
 }
@@ -29,6 +29,6 @@
     
     .profile-image {
         width: 250px;
-        height: 250px;
+        height: 350px;
     }
 }
