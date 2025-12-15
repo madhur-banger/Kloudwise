@@ -114,9 +114,12 @@ export default function HeroSection() {
                 animate="animate"
                 transition={{ delay: 0.1 }}
               >
-                Design<span style={{ color: "var(--red-dark-clr)" }}>.</span>{" "}
-                Develop<span style={{ color: "var(--red-dark-clr)" }}>.</span>{" "}
-                Market<span style={{ color: "var(--red-dark-clr)" }}>.</span>{" "}
+                Design
+                <span style={{ color: "var(--red-dark-clr)" }}> </span>{" "}
+                Develop
+                <span style={{ color: "var(--red-dark-clr)" }}> </span>{" "}
+                Market
+                <span style={{ color: "var(--red-dark-clr)" }}> </span>{" "}
                 <span style={{ color: "var(--green-dark-clr)" }}>
                   Buisness
                 </span>
