@@ -133,7 +133,8 @@ export default function HeroSection() {
                 <b> Mobile App</b> to complete <b>infrastructure</b>{" "}
                 development.
                 <br />
-                {" "}We design, develop, makret your buisness's digital presence.
+                {" "}{" "}We design, develop, makret your buisness&apos;s digital presence.
+
               </motion.p>
               <motion.a
                 href="#contact-section"
