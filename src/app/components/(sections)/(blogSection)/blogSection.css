@@ -1,0 +1,16 @@
+.custom_blog_area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.custom_blog_container {
+    width: 400px;
+    padding: 10px;
+}
+
+@media (max-width: 767px) {
+    .custom_blog_container {
+        width: 100%;
+    }
+}

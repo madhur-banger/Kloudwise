@@ -1,0 +1,102 @@
+/* ===============================
+   ACTIVE / HOVER COLORS
+================================ */
+
+#active {
+    color: var(--red-dark-clr); /* KEEP THIS */
+  }
+  
+  #not-active:hover {
+    color: var(--red-light-clr);
+  }
+  
+  /* ❌ REMOVE THIS — it overrides the above */
+  /*
+  #active {
+    color: red;
+  }
+  */
+  
+  /* ===============================
+     NAVBAR SIZE FIX
+  ================================ */
+  
+  .header_aria .navbar {
+    min-height: 100px;          /* allows big logo */
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+  }
+  
+  /* Remove Bootstrap spacing limits */
+  .header_aria .navbar .container {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
+  /* ===============================
+     BRAND ALIGNMENT
+  ================================ */
+  
+  .header_aria .navbar-brand {
+    display: flex;
+    align-items: center;
+    padding: 0;
+  }
+  
+  /* ===============================
+     LOGO SIZE (THIS IS THE KEY)
+  ================================ */
+  
+  .header_aria img.logo {
+    height: 170px !important;   /* make it obviously big */
+    width: auto;
+    max-height: none;
+    display: block;
+  }
+  
+  /* ===============================
+     TOGGLER
+  ================================ */
+  
+  .navbar-toggler {
+    border: 0;
+    box-shadow: none;
+  }
+  
+  /* ===============================
+     MOBILE FIXES
+  ================================ */
+  
+  @media (max-width: 991px) {
+    .header_aria .navbar {
+      min-height: 80px;
+    }
+  
+    .header_aria img.logo {
+      height: 64px !important;
+    }
+  }
+  
+  @media (max-width: 414px) {
+    .header_aria .navbar {
+      min-height: 70px;
+    }
+  
+    .header_aria img.logo {
+      height: 56px !important;
+    }
+  
+    .header_aria .navbar .navbar-collapse .nav_buttons .contact_btn {
+      display: block !important;
+    }
+  
+    .header_aria .navbar .navbar-collapse .nav_buttons {
+      padding-left: 0;
+    }
+  
+    .cstm_contact_btn_mob {
+      margin-left: 20px !important;
+      margin-right: 20px !important;
+    }
+  }
+  

@@ -1,0 +1,25 @@
+/* Media query for mobile devices */
+@media (max-width: 414px) {
+    .cstm_min_testimonial_1440px {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cst_single_testimonial_1440px {
+        width: 100% !important; 
+        margin-bottom: 20px;
+    }
+
+    .cst_testimonial_mob{
+        padding-bottom: 0px !important;
+    }
+}
+
+.cstm_min_testimonial_1440px{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cst_single_testimonial_1440px{
+    width: 50%;
+}

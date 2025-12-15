@@ -1,0 +1,159 @@
+.custom_carousel {
+  margin-top: 50px;
+}
+
+.custom_carousel_list {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}
+
+.tag_btn {
+  position: relative;
+  padding: 10px 25px;
+  margin: 0 10px 10px 0;
+    color: #131313;
+    background-color: var(--white-watermelon-clr);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    border: 2px solid #131313;
+    box-shadow: 4px 4px 0px #131313;
+    text-transform: uppercase;
+    transition: .3s;
+    display: inline-block;
+    z-index: 100;
+
+    i {
+        transform: rotate(-45deg);
+        margin-left: 5px;
+        transition: 0.3s;
+    }
+}
+
+.tag_btn:hover {
+    color: var(--red-light-clr);
+    box-shadow: none;
+    i {
+        transform: none;
+    }
+}
+
+.carousel_img {
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.project_bottom {
+  position: absolute;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 150px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  /* background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 100%); */
+}
+
+.project_content {
+  text-align: center; /* Centers content horizontally */
+  position: absolute;
+  bottom: 20px; /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%); /* Centers content horizontally */
+  width: 100%; /* Ensures the content takes full width of its parent */
+}
+
+.project_title {
+  margin-bottom: 10px; /* Space between title and button */
+}
+
+.project_bottom a {
+  color: white;
+  font-weight: bold;
+}
+
+.project_bottom .project_btn {position: relative;
+  padding: 10px 25px;
+  margin: 0 10px 10px 0;
+  color: #131313;
+  background-color: var(--red-lightest-clr);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  border: 2px solid #131313;
+  box-shadow: 4px 4px 0px #131313;
+  text-transform: uppercase;
+  transition: .3s;
+  display: inline-block;
+  z-index: 100;
+}
+
+.project_btn:hover {
+  background-color: var(--red-light-clr);
+  box-shadow: none;
+}
+
+a{
+  color: black !important;
+}
+
+.cstm_project_title{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#projects-section > div.custom_carousel.carousel.slide > a.carousel-control-prev > span.carousel-control-prev-icon{
+  background-color: black;
+  border-radius: 15px;
+}
+
+#projects-section > div.custom_carousel.carousel.slide > a.carousel-control-next > span.carousel-control-next-icon{
+  background-color: black;
+  border-radius: 15px;
+}
+
+.carousel-indicators [data-bs-target]{
+  background-color: black;
+}
+
+@media (min-width: 767px) { /*Fixing issue of carousel indicators*/
+  .carousel-indicators{
+    margin-bottom: -100px !important;
+  }
+}
+
+
+#projects-section > div.custom_carousel.carousel.slide > div.carousel-inner{
+  text-align: center;
+}
+
+
+
+@media(max-width: 767px) {
+  .custom_carousel {
+    height: 500px;
+  }
+  .carousel_img {
+    height: 300px; /*Reducing carousel image size*/
+  }
+  .tag_btn{
+    padding: 5px 15px;
+  }
+}
+
+@media(max-width: 414px){
+  .cstm_projectsslider_title_button{
+    text-align: center;
+    margin-left: 0px;
+  }
+
+  .cstm_projectsslider_title_button_inside{
+    text-align: center !important;
+  }
+}
