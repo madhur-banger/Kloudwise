@@ -1,12 +1,8 @@
 import { Inter } from "next/font/google";
-import Head from "next/head";
 
-// CSS imports (KEEP AS-IS)
+// CSS imports
 import "../../public/assets/css/responsive.css";
 import "../../public/assets/css/style.css";
-
-// ❌ THIS SCRIPT WAS INVALID (outside JSX)
-// <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js" async></script>
 
 // Plugins
 import "../../public/assets/css/plugins/slick-slider/slick.css";
@@ -36,45 +32,21 @@ export const metadata = {
   title: "Kloudwise Technologies | Design, Develop, Market",
   description: "The one stop solution to all your digital problems.",
   icons: {
-    icon: "/kloudwise.png",
-    apple: "/kloudwise.png",
-  }
+    icon: [
+      { url: '/kloudwise.png' },
+      { url: '/kloudwise.png', sizes: '32x32', type: 'image/png' },
+      { url: '/kloudwise.png', sizes: '16x16', type: 'image/png' },
+    ],
+    apple: '/kloudwise.png',
+    shortcut: '/kloudwise.png',
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
-        {/* ================= META (UNCHANGED) ================= */}
-        <meta charSet="UTF-8" />
-        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-        {/* (ALL your SEO meta tags KEPT AS-IS) */}
-
-        {/* ================= FAVICON (FIXED) ================= */}
-
-        {/* ✅ EXPECTS FILE AT: /public/favicon1.png */}
-        <link rel="apple-touch-icon" sizes="180x180" href="/kloudwise.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/kloudwise.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/kloudwise.png" />
-        <link rel="manifest" href="/site.webmanifest" />
-
-        {/* ❌ OLD BROKEN PATH */}
-        {/* <link rel="icon" type="image/x-icon" href="../../public/assets/img/icon/tab-icon.png" /> */}
-
-        {/* ✅ FIXED VERSION */}
-        {/* EXPECTS FILE AT: /public/assets/img/icon/tab-icon.png */}
-        <link
-          rel="icon"
-          type="image/x-icon"
-          href="/kloudwise.png"
-        />
-
-        <title>Kloudwise Technologies | Design, Develop, Market</title>
-
-        {/* ================= EXTERNAL CSS (PATHS FIXED) ================= */}
-
+      <head>
+        {/* External CSS */}
         <link
           rel="stylesheet"
           href="https://unpkg.com/flickity@2/dist/flickity.min.css"
@@ -108,19 +80,19 @@ export default function RootLayout({ children }) {
         <link rel="stylesheet" href="/assets/css/style.css" />
         <link rel="stylesheet" href="/assets/css/responsive.css" />
 
-        {/* ================= FLICKITY SCRIPT (FIXED LOCATION) ================= */}
+        {/* Flickity Script */}
         <script
           src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"
           async
         ></script>
-      </Head>
+      </head>
 
       <body className={inter.className} data-scroll-animation="false">
         {children}
 
         {/* WhatsApp Floating Button */}
         <a
-        href="https://wa.me/+918168087261?text=Hey%21+I+have+a+requirement+for+MetaRizz+for+building+a"
+          href="https://wa.me/+918168087261?text=Hey%21+I+have+a+requirement+for+Kloudwise+for+building+a"
           target="_blank"
           rel="noopener noreferrer"
           className="whatsapp_float"

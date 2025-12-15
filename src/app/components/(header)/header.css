@@ -48,7 +48,7 @@
   ================================ */
   
   .header_aria img.logo {
-    height: 170px !important;   /* make it obviously big */
+    height: 150px !important;   /* make it obviously big */
     width: auto;
     max-height: none;
     display: block;

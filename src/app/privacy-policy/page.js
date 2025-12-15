@@ -5,10 +5,10 @@ export default function PrivacyPolicy() {
     <>
       <Header />
       <section style={{ marginTop: "150px", padding: "20px" }}>
-        <h1>MetaRizz Technologies - Privacy Policy</h1>
+        <h1>Kloudwise Technologies - Privacy Policy</h1>
     <p>Last Updated: August 5, 2025</p>
     <h2>Introduction</h2>
-    <p>MetaRizz Technologies is committed to protecting the privacy of our users. This Privacy Policy explains how we collect, use, and protect personal data when you use our website, products, or services.</p>
+    <p>Kloudwise Technologies is committed to protecting the privacy of our users. This Privacy Policy explains how we collect, use, and protect personal data when you use our website, products, or services.</p>
     <h2>Collection of Personal Data</h2>
     <p>We collect personal data when you:</p>
     <ul>
@@ -59,7 +59,7 @@ export default function PrivacyPolicy() {
     <h2>Changes to this Policy</h2>
     <p>We may update this Privacy Policy from time to time. Changes will be posted on this page and, if significant, we will provide notice to users.</p>
     <h2>Contact Us</h2>
-    <p>If you have questions or concerns about this Privacy Policy, please contact us at <a href="mailto:support@metarizz.com">support@metarizz.com</a>.</p>
+    <p>If you have questions or concerns about this Privacy Policy, please contact us at <a href="mailto:support@metarizz.com">support@kloudwise.in</a>.</p>
       </section>
     </>
   );

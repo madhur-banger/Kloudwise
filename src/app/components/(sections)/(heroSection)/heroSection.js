@@ -118,7 +118,7 @@ export default function HeroSection() {
                 Develop<span style={{ color: "var(--red-dark-clr)" }}>.</span>{" "}
                 Market<span style={{ color: "var(--red-dark-clr)" }}>.</span>{" "}
                 <span style={{ color: "var(--green-dark-clr)" }}>
-                  Buisness<span style={{ color: "var(--red-dark-clr)" }}>.</span>
+                  Buisness
                 </span>
               </motion.h1>
               <motion.p
@@ -132,8 +132,8 @@ export default function HeroSection() {
                 helps you right from <b>Web</b>,
                 <b> Mobile App</b> to complete <b>infrastructure</b>{" "}
                 development.
-                <br />
-                {" "}{" "}We design, develop, makret your buisness&apos;s digital presence.
+                {/* <br />
+                {" "}{" "}We design, develop, makret your buisness&apos;s digital presence. */}
 
               </motion.p>
               <motion.a
