@@ -115,7 +115,7 @@ export default function HeroSection() {
                 transition={{ delay: 0.1 }}
               >
                 Design
-                <span style={{ color: "var(--red-dark-clr)" }}> </span>{" "}
+                <span style={{ color: "var(--red-dark-clr)" }}></span>{" "}
                 Develop
                 <span style={{ color: "var(--red-dark-clr)" }}> </span>{" "}
                 Market

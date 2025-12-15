@@ -45,7 +45,8 @@
   .tech_logos_container {
     position: absolute;
     right: 0;
-    top: 50%;
+    left: 50%;
+    top: 42%;
     transform: translateY(-50%);
     width: 55%;
     max-width: 800px;

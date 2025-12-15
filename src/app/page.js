@@ -49,7 +49,7 @@ export default function Home() {
       </section> */}
 
       <ProjectsSlider />
-      <PowerSection />
+      {/* <PowerSection /> */}
       <Testimonial />
       <ContactSection />
       {/* <BlogSection /> */}
